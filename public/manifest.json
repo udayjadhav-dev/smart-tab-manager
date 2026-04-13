@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Tab Manager",
+  "version": "1.0",
+  "description": "Automatically group your tabs by category",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
